@@ -1,0 +1,3 @@
+/home/huy/code/myApp/g2/build/CMakeFiles/g2.dir
+/home/huy/code/myApp/g2/build/CMakeFiles/edit_cache.dir
+/home/huy/code/myApp/g2/build/CMakeFiles/rebuild_cache.dir

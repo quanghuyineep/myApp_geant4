@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/huy/code/myApp/g2/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
