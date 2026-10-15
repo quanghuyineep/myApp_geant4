@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/g2.dir/link.d"
   "CMakeFiles/g2.dir/g2.cc.o"
   "CMakeFiles/g2.dir/g2.cc.o.d"
+  "CMakeFiles/g2.dir/src/DetectorConstruction.cc.o"
+  "CMakeFiles/g2.dir/src/DetectorConstruction.cc.o.d"
   "g2"
   "g2.pdb"
 )

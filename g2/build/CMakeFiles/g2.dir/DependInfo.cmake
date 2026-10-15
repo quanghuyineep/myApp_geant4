@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/huy/code/myApp/g2/g2.cc" "CMakeFiles/g2.dir/g2.cc.o" "gcc" "CMakeFiles/g2.dir/g2.cc.o.d"
+  "/home/huy/code/myApp/g2/src/DetectorConstruction.cc" "CMakeFiles/g2.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/g2.dir/src/DetectorConstruction.cc.o.d"
   "" "g2" "gcc" "CMakeFiles/g2.dir/link.d"
   )
 

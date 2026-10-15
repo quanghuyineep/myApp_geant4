@@ -153,6 +153,30 @@ g2.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g2.dir/build.make CMakeFiles/g2.dir/g2.cc.s
 .PHONY : g2.cc.s
 
+src/DetectorConstruction.o: src/DetectorConstruction.cc.o
+.PHONY : src/DetectorConstruction.o
+
+# target to build an object file
+src/DetectorConstruction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g2.dir/build.make CMakeFiles/g2.dir/src/DetectorConstruction.cc.o
+.PHONY : src/DetectorConstruction.cc.o
+
+src/DetectorConstruction.i: src/DetectorConstruction.cc.i
+.PHONY : src/DetectorConstruction.i
+
+# target to preprocess a source file
+src/DetectorConstruction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g2.dir/build.make CMakeFiles/g2.dir/src/DetectorConstruction.cc.i
+.PHONY : src/DetectorConstruction.cc.i
+
+src/DetectorConstruction.s: src/DetectorConstruction.cc.s
+.PHONY : src/DetectorConstruction.s
+
+# target to generate assembly for a file
+src/DetectorConstruction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g2.dir/build.make CMakeFiles/g2.dir/src/DetectorConstruction.cc.s
+.PHONY : src/DetectorConstruction.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... g2.o"
 	@echo "... g2.i"
 	@echo "... g2.s"
+	@echo "... src/DetectorConstruction.o"
+	@echo "... src/DetectorConstruction.i"
+	@echo "... src/DetectorConstruction.s"
 .PHONY : help
 
 

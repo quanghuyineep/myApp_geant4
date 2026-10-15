@@ -7,6 +7,9 @@ include(${Geant4_USE_FILE})
 # ← Thêm dòng này:
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_executable(g2 g2.cc)
+file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
+file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
+
+add_executable(g2 g2.cc ${sources} ${headers})
 target_link_libraries(g2 ${Geant4_LIBRARIES})
 
